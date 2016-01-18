@@ -25,6 +25,17 @@ warning the offender or expulsion from the community. If you are being
 harassed, notice that someone else is being harassed, or have any concerns,
 please contact an organizer immediately.
 
+The organizers staff will be happy to help participants contact
+hotel/venue security or local law enforcement, provide escorts, or otherwise
+assist those experiencing harassment to feel safe for the duration of the
+conference.
+
+You are expected to respect the local cuban laws and especially follow the
+rules that apply to foreign visitors. You also have to comply to the agreements
+between Cuba and your home country.
+
+We value your attendance.
+
 ### Nodeschool Havana
 
 * Organizers: Robert Kowalski (@robinson_k), Pablo Mestre (@elMor3no_), Olemis Lang (@olemislc)
