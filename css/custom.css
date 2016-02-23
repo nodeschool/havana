@@ -1,5 +1,10 @@
 /* overrides */
 
+body {
+  font-family: 'Varela Round' !important;
+  font-size: 16px;
+}
+
 .features-item.first > .features-circle {
   background-color: #7097DB;
   border: 6px solid #1A348E;
@@ -42,7 +47,7 @@
 }
 
 .site-header {
-  border-top: 5px solid #8E1A59;
+  border-top: 5px solid #1A348E;
   background-color: #F7F7F7;
   text-shadow: none;
   color: black;
@@ -79,9 +84,9 @@
 .dat { margin-right: 35px; position: relative; top: 20px; }
 
 .site-header {
-  border: none;
-  height: 402px;
+  height: 300px;
   background: transparent url("../img/logo.png") center 10px no-repeat;
+  background-size: 160px;
 }
 
 .site-header .logo {
@@ -102,7 +107,7 @@
 }
 
 .header-intro-wrap {
-  padding: 120px 0 0;
+  padding: 160px 0 0;
   text-align: center;
 }
 

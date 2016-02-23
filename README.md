@@ -1,7 +1,7 @@
-NodeSchool Paris Website
+NodeSchool Havana Website
 ========================
 
 GitHub pages
 
-http://nodeschool.io/paris
-http://nodeschool.github.io/paris
+http://nodeschool.io/havana
+http://nodeschool.github.io/havana
