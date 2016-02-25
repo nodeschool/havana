@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html ng-app="NSHome">
 <head>
 
   <meta charset="utf-8">
@@ -11,12 +11,12 @@
   <link rel="stylesheet" href="css/custom.css">
 </head>
 
-<body>
+<body ng-controller="NSTranslate">
   <!-- START: Site Header -->
   <header role="banner" class="site-header">
     <!-- START: Intro -->
     <div id="header" class="header-intro-wrap fadeUpIn">
-      <h1 class="logo">NodeSchool Habana</h1>
+      <h1 class="logo" traslate="CHAPTER_NAME">NodeSchool Habana</h1>
 
       <div class="catch-errors-top"></div>
     </div>
@@ -35,8 +35,8 @@
               <i class="icon-tools"></i>
             </span>
           </span>
-          <h3>Aprender Node</h3>
-          <p>Únete a nosotros y aprende a programar.  Te enseñaremos los conceptos básicos de Node.js (y un poco más).  Todo será más fácil si ya conoces JavaScript, pero no es un requisito pues, de no ser así, también te podemos ayudar.</p>
+          <h3 translate="LEARN_CODING">Aprender Node</h3>
+          <p translate="LEARN_CODING_TEXT">Únete a nosotros y aprende a programar.  Te enseñaremos los conceptos básicos de Node.js (y un poco más).  Todo será más fácil si ya conoces JavaScript, pero no es un requisito pues, de no ser así, también te podemos ayudar.</p>
         </li>
         <!-- /END: Feature Item -->
         <!-- START: Feature Item -->
@@ -46,8 +46,8 @@
               <i class="icon-rocket"></i>
             </span>
           </span>
-          <h3>A tu ritmo</h3>
-          <p>Puedes resolver los ejercicios al ritmo que prefieras.  Nada de charlas aburridas.  Todos los retos son software libre y se encuentran disponibles en línea en <a href="http://nodeschool.io/">nodeschool.io</a>.  Por lo tanto podrás seguir aprendiendo después de los talleres.</p>
+          <h3 translate="SELF_GUIDED">A tu ritmo</h3>
+          <p translate="SELF_GUIDED_TEXT">Puedes resolver los ejercicios al ritmo que prefieras.  Nada de charlas aburridas.  Podrás seguir aprendiendo después de los talleres pues todos los retos son software libre y se encuentran disponibles en línea en <a href="http://nodeschool.io/">nodeschool.io</a>.  </p>
 
         </li>
         <!-- /END: Feature Item -->
@@ -58,8 +58,8 @@
               <i class="icon-heart"></i>
             </span>
           </span>
-          <h3>Para todos</h3>
-          <p>Creemos que programar es algo genial, así que todos son bienvenidos a nuestros talleres.  Para mantener un ambiente favorable para la realización del evento esperamos el buen trato entre todos los participantes y el respeto del <a href="https://github.com/nodeschool/havana/blob/master/Code_of_Conduct.es.md">Código de conducta</a>.</p>
+          <h3 translate="FOR_EVERYONE">Para todos</h3>
+          <p translate="FOR_EVERYONE_TEXT">Creemos que programar es algo genial, así que todos son bienvenidos a nuestros talleres.  Para mantener un ambiente favorable para la realización del evento esperamos el buen trato entre todos los participantes y el respeto del <a href="https://github.com/nodeschool/havana/blob/master/Code_of_Conduct.es.md">Código de conducta</a>.</p>
         </li>
         <!-- /END: Feature Item -->
       </ul>
@@ -71,12 +71,12 @@
     <section id="help" class="site-section section-signup">
       <div class="row">
         <div class="twelve columns animate-on-scroll" data-scrollanimation="fadeDownIn">
-          <h3 class="signup-title">¡Únete a la aventura!</h3>
-          <!-- <h4 class="signup-subtitle">¿Quieres tener otro evento de NodeSchool en La Habana? <br/> Ayuda a planearlo o muestra tu inetrés en <a href="https://github.com/nodeschool/havana/issues">GitHub</a>.</h4> -->
+          <h3 class="signup-title" translate="SIGNUP">¡Únete a la aventura!</h3>
+          <!-- <h4 class="signup-subtitle" translate="PLAN_NEXT">¿Quieres tener otro evento de NodeSchool en La Habana? <br/> Ayuda a planearlo o muestra tu interés en <a href="https://github.com/nodeschool/havana/issues">GitHub</a>.</h4> -->
           <h4 class="signup-subtitle">
-            El próximo taller NodeSchool Habana tendrá lugar<br/>
-            <strong>el miércoles 27 de abril del 2016 de 11h a 17h30 en</strong><br/>
-            <strong><a href="http://cubaconf.org/location">la sede de CubaConf</a></strong>
+            <span translate="JOIN_NEXT">El próximo taller NodeSchool Habana tendrá lugar</span><br/>
+            <strong>el miércoles 27 de abril del 2016 de 11h a 17h30</strong><br/>
+            <strong translate="VENUE_NEXT">en <a href="http://cubaconf.org/location">la sede de CubaConf</a></strong>
           </h4>
         </div>
       </div>
@@ -84,7 +84,10 @@
         <!-- START: Signup Form Bottom -->
         <div class="eight columns centered">
           <div class="signup-form">
-            <a href="http://www.cubaconf.org/" class="btn-side animate-on-scroll" data-scrollanimation="fadeInLeft"><i class="icon-ticket"></i> ¡ Participa !</a>
+            <a href="http://www.cubaconf.org/" class="btn-side animate-on-scroll" data-scrollanimation="fadeInLeft">
+              <i class="icon-ticket"></i>
+              <span translate="JOIN_US">¡ Participa !</span>
+            </a>
           </div>
         </div>
         <!-- /END: Signup Form Bottom -->
@@ -95,10 +98,10 @@
   <section class="site-section">
     <div class="row">
       <div class="twelve columns animate-on-scroll" data-scrollanimation="fadeDownIn">
-        <h3>¿ Preguntas ? ¿ Sugerencias ? ¿ Quieres ayudar ?</h3>
-        <h4>Crea un <span lang="en">issue</span> en <a href="https://github.com/nodeschool/paris">GitHub</a> y únete a la discusión.</h4>
-          <p>Si no estás en GitHub todavía, abre una <a href="https://github.com/join">cuenta gratis</a> y consulta el taller <a href="http://nodeschool.io/#git-it">Git-it</a>, el cual te ayudará a dar tus primeros pasos con el sistema de control de versiones.</p>
-        <h4>Puedes contactarnos también en Twitter : <a href="https://twitter.com/NodeSchoolCuba">@NodeSchoolCuba</a></h4>
+        <h3 translate="CONTRIBUTE">¿ Preguntas ? ¿ Sugerencias ? ¿ Quieres ayudar ?</h3>
+        <h4 translate="CONTRIBUTE_TEXT">Crea un <span lang="en">issue</span> en <a href="https://github.com/nodeschool/havana">GitHub</a> y únete a la discusión.</h4>
+        <p translate="NO_GITHUB">Si no estás en GitHub todavía, abre una <a href="https://github.com/join">cuenta gratis</a> y consulta el taller <a href="http://nodeschool.io/#git-it">Git-it</a>, el cual te ayudará a dar tus primeros pasos con el sistema de control de versiones.</p>
+        <h4 translate="CONTACT_US">Puedes contactarnos también en Twitter : <a href="https://twitter.com/NodeSchoolCuba">@NodeSchoolCuba</a></h4>
       </div>
     </div>
   </section>
@@ -108,7 +111,7 @@
     <div class="row footer-info">
       <!-- START: Copyright Notice -->
       <div class="twelve columns">
-        <p class="footer-copyright">Todo el HTML, CSS, imágenes y diseño estan basados en las páginas del
+        <p class="footer-copyright" translate="COPYRIGHT">Todo el HTML, CSS, imágenes y diseño estan basados en las páginas del
           <a href="http://nodeschool.io/paris">NodeSchool Paris</a>, a su vez
           <a href="http://nodeschool.io/berlin">derivado de NodeSchool Berlin</a>, a su vez
           <a href="http://github.com/pikkupanda/pikkupanda.github.io">derivado de pikkupanda.de</a>, a su vez
@@ -116,7 +119,7 @@
           <a href="https://github.com/sudomesh/peoplesopen-front">surgió a partir de PeoplesOpen.Net</a> el cual, a su vez, surgió a partir del
           <a href="http://martini.codegangsta.io/">tema de Martini</a>, reutilizado en todos los casos bajo los términos de la licencia MIT.
           El cuento es un poco largo. Sigue escribiéndolo haciendo un fork de <a href="https://github.com/nodeschool/paris">este sitio en GitHub</a>.
-          La imágen de fondo se distribuye bajo los términos de la licencia <a href="http://creativecommons.org/licenses/by-sa/2.5/">CC BY-SA 2.5</a> por <a href="http://commons.wikimedia.org/wiki/File:2006-09-19_Berlin_Brandenburger_Tor.jpg">Stephan Czuratis.</a>
+          La imágen de fondo se distribuye bajo los términos de la licencia <a href="http://creativecommons.org/licenses/by-sa/2.5/">CC BY-SA 2.5</a> por <a href="http://commons.wikimedia.org/wiki/File:2006-09-19_Berlin_Brandenburger_Tor.jpg">Stephan Czuratis</a>.
           Los íconos son de <a href="http://www.entypo.com/">Daniel Bruce</a>, y se utilizan bajo los términos de la licencia <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>.</p>
       </div>
       <!-- /END: Copyright Notice -->
@@ -131,6 +134,10 @@
     </div>
   </footer>
   <!-- /END: Site Footer -->
+
+  <script src="http://127.0.0.1/angularjs/angular.min.js"></script>
+  <script src="http://127.0.0.1/angular-translate/angular-translate.js"></script>
+  <script src="js/app.js"></script>
 
 </body>
 </html>
