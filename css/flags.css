@@ -1,0 +1,13 @@
+.flag {
+  display: inline-block;
+  width: 25px;
+  height: 15px;
+  background:url(../img/flags.png) no-repeat
+}
+
+.flag.flag-de {background-position: -25px 0}
+.flag.flag-es {background-position: -50px 0}
+.flag.flag-fr {background-position: 0 -15px}
+.flag.flag-gb {background-position: -25px -15px}
+.flag.flag-it {background-position: -50px -15px}
+.flag.flag-pt {background-position: 0 -30px}

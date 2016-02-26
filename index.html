@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
   <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/gumby.css">
+  <link rel="stylesheet" href="css/flags.css">
   <link rel="stylesheet" href="css/custom.css">
 </head>
 
@@ -15,17 +16,26 @@
   <!-- START: Site Header -->
   <header role="banner" class="site-header">
     <!-- START: Intro -->
-    <!--div class="row">
-      <div class="three columns push_nine ">
-        <div id="lang" class="navbar">
-          <ul>
-            <li class="{{(langId == 'es')? 'active':''}}"><span>es</span></li>
-            <li class="{{(langId == 'en')? 'active':''}}><span>en</span></li>
-            <li class="{{(langId == 'fr')? 'active':''}}><span>fr</span></li>
+    <div class="row">
+      <div class="three columns push_nine">
+        <section class="vertical tabs">
+          <ul id="lang" class="tab-nav">
+            <li class="{{(langId == 'es')? 'active':''}}">
+              <a href="#" ng-click="set_lang('es')"><span class="flag flag-es"></span> Español</a>
+            </li>
+            <li class="{{(langId == 'en')? 'active':''}}">
+              <a href="#" ng-click="set_lang('en')"><span class="flag flag-gb"></span> English</a>
+            </li>
+            <li class="{{(langId == 'fr')? 'active':''}}">
+              <a href="#" ng-click="set_lang('fr')"><span class="flag flag-fr"></span> Français</a>
+            </li>
           </ul>
-        </div>
+          <div class="tab-content" style="display: none"></div>
+          <div class="tab-content" style="display: none"></div>
+          <div class="tab-content" style="display: none"></div>
+        </section>
       </div>
-    </div -->
+    </div>
     <div id="header" class="header-intro-wrap fadeUpIn">
       <h1 class="logo" translate="CHAPTER_NAME">NodeSchool Habana</h1>
 

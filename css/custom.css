@@ -107,7 +107,7 @@ body {
 }
 
 .header-intro-wrap {
-  padding: 160px 0 0;
+  padding: 20px 0 0;
   text-align: center;
 }
 
@@ -181,3 +181,24 @@ body {
 
 *[lang] { font-style: italic; }
 em *[lang], i *[lang] { font-style: normal; }
+
+/* Language tabs */
+
+ul#lang li a {
+  background: #7097DB;
+  border: none;
+  color: #FFFFFF;
+  opacity: 0.7;
+  text-shadow: none;
+}
+
+ul#lang li a:hover {
+  opacity: 0.8; 
+}
+
+ul#lang li.active a {
+  background: white;
+  color: #1A348E;
+  opacity: 1.0;
+}
+

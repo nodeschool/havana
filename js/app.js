@@ -58,14 +58,16 @@ Copyright (c) 2016 Olemis Lang <olemis@gmail.com> Twitter: @olemislc
     for (var langId in TRANSLATIONS) {
       $i18n.translations(langId, TRANSLATIONS[langId]);
     }
-    $i18n.preferredLanguage('en');
+    $i18n.preferredLanguage('es');
   }]);
 
   app.controller('NSTranslate', ['$scope', '$translate', function($scope, $i18n) {
     $scope.langId = 'es';
     $scope.set_lang = function(langId) {
-      $i18n.use(langId);
-      $scope.langId = langId;
+      if (langId != $scope.langId) {
+        $i18n.use(langId);
+        $scope.langId = langId;
+      }
     }
   }]);
 
