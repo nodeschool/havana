@@ -39,6 +39,7 @@ We value your attendance.
 ### Nodeschool Havana
 
 * Organizers: Robert Kowalski (@robinson_k), Pablo Mestre (@elMor3no_), Olemis Lang (@olemislc)
+* Website URL : http://nodeschool.io/havana
 * Meetup URL: tbd
 
 **If you have questions or feedback about this Code of Conduct please contact
@@ -46,7 +47,7 @@ one of the organizers.**
 
 The organizers of the above communities developed this Code of Conduct to
 govern their respective events and communication channels. We used [PDX
-Python's anti-harassment policy](http://www.meetup.com/pdxpython/pages/Code_of_Conduct/)
+Python’s anti-harassment policy](http://www.meetup.com/pdxpython/pages/Code_of_Conduct/)
 and the [Geek Feminism Conference anti-harassment policy](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy)
 as a starting point. This Code of Conduct, like its inspirations, is licensed under
 the [Creative Commons Zero license](http://creativecommons.org/publicdomain/zero/1.0/).

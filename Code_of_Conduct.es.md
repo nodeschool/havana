@@ -69,6 +69,7 @@ Esperamos su participación bajo el estricto respeto de estas reglas.
 ### Nodeschool Havana
 
 * Organizadores: Robert Kowalski (@robinson_k), Pablo Mestre (@elMor3no_), Olemis Lang (@olemislc)
+* Sitio web : http://nodeschool.io/havana
 * URL del encuentro (Meetup) : tbd
 
 **Si Usted tiene preguntas o señalamientos concernientes a los aspectos
