@@ -39,7 +39,7 @@ Copyright (c) 2016 Olemis Lang <olemis@gmail.com> Twitter: @olemislc
           SELF_GUIDED : 'Par soi-même',
           SELF_GUIDED_TEXT : 'Tu vas traverser à ton rythme des exercices.  Pas de cours ennuyeux.  Tous les exercices sont Open Source et en ligne sur <a href="http://nodeschool.io/">nodeschool.io</a>.  Ça veut dire que tu peux continuer à apprendre après les ateliers.',
           FOR_EVERYONE : 'Pour tous',
-          FOR_EVERYONE_TEXT : 'On trouve que programmer c’est génial et que chacun devrait se sentir bienvenu-e à nos ateliers.  Du coup on attend de tous qu’ils soient top les uns envers les autres, et respectent bien notre <a href="https://github.com/nodeschool/havana/blob/master/Code_of_Conduct.en.md">Code de Conduite</a>.',
+          FOR_EVERYONE_TEXT : 'On trouve que programmer c’est génial et que chacun devrait se sentir bienvenu-e à nos ateliers.  Du coup on attend de tous qu’ils soient top les uns envers les autres, et respectent bien notre <a href="https://github.com/nodeschool/havana/blob/master/Code_of_Conduct.fr.md">Code de Conduite</a>.',
           SIGNUP : 'Rejoins l’Aventure !',
           PLAN_NEXT : 'Voulez-vous organiser autre NodeSchool à La Havane ? Veuillez participer de la préparation ou même montrer votre intérêt via <a href="https://github.com/nodeschool/havana/issues">GitHub</a>.',
           JOIN_NEXT : 'Le prochain atelier NodeSchool Havane aura lieu',
