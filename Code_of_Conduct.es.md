@@ -21,7 +21,7 @@ la duración del evento; incluyendo, pero no limitado a, las charlas , las
 conferencias, los talleres, las actividades, las redes sociales (e.g. Twitter)
 u otro medio de difusión. Los participantes que violen estas reglas pueden ser
 sancionados o expulsados de la conferencia según el criterio de los
-organizadores sin que les sea devuelto los pagos de suscripción.
+organizadores sin que les sea devuelto los pagos de inscripción.
 
 ## La versión no tan corta
 
@@ -54,7 +54,7 @@ inmediatamente a los organizadores para evitar que la situación se vaya fuera
 de control. Los miembros del equipo pueden ser identificados por su vestimenta
 adornada con la imágen de marca del evento.
 
-Los organizadores estarán felices de ayudar a los participantes con el fin de
+Los organizadores estarán en disposición de ayudar a los participantes con el fin de
 contactar la seguridad de la sede, las autoridades locales, facilitar escolta
 o, en su defecto, asistir a las personas que se consideren acosadas para que
 se sientan seguros durante la realización del evento.
@@ -69,7 +69,7 @@ Esperamos su participación bajo el estricto respeto de estas reglas.
 ### Nodeschool Havana
 
 * Organizadores: Robert Kowalski (@robinson_k), Pablo Mestre (@elMor3no_), Olemis Lang (@olemislc)
-* URL del encuentro (Meetup) : tbd
+* URL del encuentro (Meetup) : http://www.meetup.com/CubanTech
 
 **Si Usted tiene preguntas o señalamientos concernientes a los aspectos
 estipulados en este Código de Conducta, por favor, contacte alguno de los
