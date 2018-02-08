@@ -26,7 +26,7 @@ Ces règles sont applicables pendant nos événements et tout rassemblement soci
 
 ### NodeSchool Havane
 
-* Organisateurs : Robert Kowalski (@robinson_k), Pablo Mestre (@elMor3no_), Olemis Lang (@olemislc)
+* Organisateurs : Robert Kowalski (@robinson_k), Olemis Lang (@olemislc)
 * Site web : http://nodeschool.io/havana
 
 Ce Code de Conduite est adapté du [JS Conf.eu Code of Conduct]( http://2014.jsconf.eu/code-of-conduct.html). On a aussi considéré les [règles anti-harcèlement de PDX Python](http://www.meetup.com/pdxpython/pages/Code_of_Conduct/) et les [règles anti-harcèlement de la Conférence de Féminisme Geek](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy) . Ce Code de Conduite est publié sous [licence Creative Commons Zéro](http://creativecommons.org/publicdomain/zero/1.0/).
