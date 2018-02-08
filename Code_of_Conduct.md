@@ -38,7 +38,7 @@ We value your attendance.
 
 ### Nodeschool Havana
 
-* Organizers: Robert Kowalski (@robinson_k), Pablo Mestre (@elMor3no_), Olemis Lang (@olemislc)
+* Organizers: Robert Kowalski (@robinson_k), Olemis Lang (@olemislc)
 * Meetup URL: http://www.meetup.com/CubanTech
 
 **If you have questions or feedback about this Code of Conduct please contact
